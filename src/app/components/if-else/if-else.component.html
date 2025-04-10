@@ -1,1 +1,17 @@
-<p>if-else works!</p>
+<h1>Controle de Acesso por Idade</h1>
+
+<div>
+  <button (click)="diminuirIdade()">-</button>
+  
+  <input type="number" (change)="trocarIdade($event)" [value]="idade">
+
+  <button (click)="aumentarIdade()">+</button>
+</div>
+
+<div>
+  @if (idade >= 18) {
+    <p>Acesso permitido!</p>
+  } @else {
+    <p>Acesso negado! (idade mínima: 18 anos)</p>
+  }
+</div>
