@@ -9,6 +9,7 @@ import { ForEx7Component } from './components/for-ex7/for-ex7.component';
 import { SwitchEx8Component } from './components/switch-ex8/switch-ex8.component';
 import { SistemaLoginComponent } from './components/sistema-login/sistema-login.component';
 import { ListaProdutoCondicionalComponent } from './components/lista-produto-condicional/lista-produto-condicional.component';
+import { CalculadoraComponent } from './components/calculadora/calculadora.component';
 
 @Component({
   selector: 'app-root',
@@ -23,7 +24,8 @@ import { ListaProdutoCondicionalComponent } from './components/lista-produto-con
     ForEx7Component, 
     SwitchEx8Component,
     SistemaLoginComponent,
-    ListaProdutoCondicionalComponent
+    ListaProdutoCondicionalComponent,
+    CalculadoraComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
