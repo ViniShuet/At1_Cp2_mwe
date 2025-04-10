@@ -1,2 +1,9 @@
 <h1>Lista Dinamica - For!</h1>
 
+<ul>
+    @for (item of itens; track $index) {
+        <li>{{item}} - {{$index}}</li>
+    }@empty {
+    <p>Não há itens na lista</p>
+    }
+</ul>
