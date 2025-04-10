@@ -1,1 +1,10 @@
-<p>for-ex7 works!</p>
+<h1>For com lista de objetos</h1>
+
+<ul>
+    @for (item of usuarios; track $index) {
+        <li>Nome: {{item.nome}}, Idade: {{item.idade}}</li>
+    }@empty {
+     <p>Não há itens na lista</p>
+    }
+
+</ul>
