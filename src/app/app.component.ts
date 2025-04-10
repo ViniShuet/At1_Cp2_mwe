@@ -8,6 +8,7 @@ import { Switchex6Component } from './components/switchex6/switchex6.component';
 import { ForEx7Component } from './components/for-ex7/for-ex7.component';
 import { SwitchEx8Component } from './components/switch-ex8/switch-ex8.component';
 import { SistemaLoginComponent } from './components/sistema-login/sistema-login.component';
+import { ListaProdutoCondicionalComponent } from './components/lista-produto-condicional/lista-produto-condicional.component';
 
 @Component({
   selector: 'app-root',
@@ -21,7 +22,8 @@ import { SistemaLoginComponent } from './components/sistema-login/sistema-login.
     Switchex6Component, 
     ForEx7Component, 
     SwitchEx8Component,
-    SistemaLoginComponent
+    SistemaLoginComponent,
+    ListaProdutoCondicionalComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
