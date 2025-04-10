@@ -1,10 +1,10 @@
-<p>Uso básico do Switch</p>
+<h1>Uso básico do Switch</h1>
 
-<h2>Switch - Angular 17</h2>
+<h3>Switch - Angular 17</h3>
 
 <input type="number" (change)="trocarValor($event)" [value]="mes">
 
-<div [ngSwitch]="itemSelecionado">
+<div [ngSwitch]="mes">
  <p *ngSwitchCase="1">Janeiro</p>
  <p *ngSwitchCase="2">Fevereiro</p>
  <p *ngSwitchCase="3">Marco</p>
@@ -17,5 +17,6 @@
  <p *ngSwitchCase="10">Outrubro</p>
  <p *ngSwitchCase="11">Novembro</p>
  <p *ngSwitchCase="12">Dezembro</p>
+ <p *ngSwitchDefault>Mês inválido</p>
 
 </div>

@@ -9,11 +9,10 @@ import { Component } from '@angular/core';
   styleUrl: './switch.component.css'
 })
 export class SwitchComponent {
-  mes:number = 1;
-  itemSelecionado :string = "um";
+  mes: number = 1;
 
-  trocarValor(event:Event) : void{
-    const elementoSelecionado = event.target as HTMLSelectElement
-    this.mes = parseInt(elementoSelecionado.value, 10)
+  trocarValor(event: Event): void {
+    const elementoSelecionado = event.target as HTMLInputElement;
+    this.mes = parseInt(elementoSelecionado.value, 10);
   }
 }
