@@ -7,6 +7,7 @@ import { ListaDinamicaComponent } from './components/lista-dinamica/lista-dinami
 import { Switchex6Component } from './components/switchex6/switchex6.component';
 import { ForEx7Component } from './components/for-ex7/for-ex7.component';
 import { SwitchEx8Component } from './components/switch-ex8/switch-ex8.component';
+import { SistemaLoginComponent } from './components/sistema-login/sistema-login.component';
 
 @Component({
   selector: 'app-root',
@@ -19,7 +20,8 @@ import { SwitchEx8Component } from './components/switch-ex8/switch-ex8.component
     ListaDinamicaComponent, 
     Switchex6Component, 
     ForEx7Component, 
-    SwitchEx8Component
+    SwitchEx8Component,
+    SistemaLoginComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
