@@ -1,1 +1,21 @@
 <h1>Switch com números e strings</h1>
+
+<!-- Criei tres validacoes, mas podemos apenas trocar o valor do primeiro switch para [ngSwitch]="valor" para 2 ou 3 -->
+
+<div [ngSwitch]="valor">
+    <p *ngSwitchCase="1">Um</p>
+    <p *ngSwitchCase="'dois'">Dois</p>
+    <p *ngSwitchDefault>Mês inválido</p>
+ </div>
+
+ <div [ngSwitch]="valor2">
+    <p *ngSwitchCase="1">Um</p>
+    <p *ngSwitchCase="'dois'">Dois</p>
+    <p *ngSwitchDefault>Mês inválido</p>
+ </div>
+
+ <div [ngSwitch]="valor3">
+    <p *ngSwitchCase="1">Um</p>
+    <p *ngSwitchCase="'dois'">Dois</p>
+    <p *ngSwitchDefault>Valor nao reconhecido</p>
+ </div>
